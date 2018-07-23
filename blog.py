@@ -79,7 +79,7 @@ class NewPost(BlogHandler):
         else:
             error = "subject and content, please!"
             self.render("newpost.html", subject=subject, content=content, error=error)
-
+            
 
 
 ###### Unit 2 HW's
